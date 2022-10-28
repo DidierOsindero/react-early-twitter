@@ -5,7 +5,7 @@ function FriendStatuses(): JSX.Element {
     <section>
       <h2>friend's status</h2>
       <a href="#">add more friends</a>
-      <ol>
+      <ul>
         <StatusItem
           username={"jack"}
           content={"wondering when Mer is going to show up"}
@@ -91,7 +91,7 @@ function FriendStatuses(): JSX.Element {
           emoji={"◻️"}
           timeAgo={{ n: 1, unit: "days" }}
         />
-      </ol>
+      </ul>
     </section>
   );
 }
